@@ -1,8 +1,24 @@
 aid: wichorus
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/wichorus.png
 name: Wichorus
-description: Wichorus is a company surfaced as a portfolio company of mayfield, redpoint-ventures and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: Wichorus was a mobile-broadband infrastructure company surfaced as a portfolio company
+  of mayfield and redpoint-ventures and added to the API Evangelist network as a stub for enrichment.
+  As of this enrichment pass the domain wichorus.com is parked and listed for sale on HugeDomains
+  (all requests redirect to hugedomains.com), so the company operates no live website, developer
+  portal, documentation, or API surface. No public API, OpenAPI, SDK, well-known metadata, or event
+  surface could be discovered. This profile is retained as a historical VC-portfolio lead with no
+  API artifacts to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/wichorus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,10 @@ x-backed-by:
 - redpoint-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: defunct-domain-parked
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 apis: []
@@ -22,3 +39,8 @@ maintainers:
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
